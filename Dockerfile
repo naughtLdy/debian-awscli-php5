@@ -8,4 +8,5 @@ RUN apt-get update && \
   apt-get install -y php5.6 && \
   curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && \
   apt-get install -y python python-pip && \
-  pip install aws
+  pip install aws && \
+  apt-get clean
