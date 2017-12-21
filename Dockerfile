@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:8
 
 RUN apt-get update && \
   apt-get install -y apt-transport-https lsb-release ca-certificates wget curl groff-base && \
